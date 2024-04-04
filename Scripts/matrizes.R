@@ -6,11 +6,11 @@ altura_peso <- matrix(c(1.74,1.80,1.65, 75,82,69), ncol=2)
 altura_peso
 
 # pelo número de linhas
-m2 <- matrix(c(1.74,1.80,1.65, 75,82,69), nrow = 2)
+m2 <- matrix(c(1.74,1.80,1.65,75,82,69), nrow = 2)
 m2
 
 # preenchendo por linha
-m3 <- matrix(c(1.74,1.80,1.65, 75,82,69), nrow = 2, byrow = TRUE)
+m3 <- matrix(c(1.74,1.80,1.65,75,82,69), nrow = 2, byrow = TRUE)
 m3
 
 # acessando matriz
@@ -33,5 +33,6 @@ colMeans(altura_peso)
 
 rowMeans(m3)
 
+# determinante
 m4 <- matrix(1:9, ncol=3)
 det(m4)
